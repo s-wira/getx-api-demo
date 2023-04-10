@@ -69,8 +69,8 @@ class Homepage extends StatelessWidget {
                   return StaggeredGridView.countBuilder(
                       crossAxisCount: 2,
                       itemCount: controller.productList.length,
-                      mainAxisSpacing: 16,
-                      crossAxisSpacing: 16,
+                      mainAxisSpacing: 8,
+                      crossAxisSpacing: 8,
                       itemBuilder: (context, index) {
                         return ProductTile(controller.productList[index]);
                       },
